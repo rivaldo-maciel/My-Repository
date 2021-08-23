@@ -1,0 +1,23 @@
+header h1{
+    background-color: darkblue;
+    padding: 30px;
+    color: white;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    list-style: none;
+    background-color: saddlebrown;
+    padding: 30px;
+    margin: 0;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: tomato;
+}
