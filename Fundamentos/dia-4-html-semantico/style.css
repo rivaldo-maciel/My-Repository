@@ -10,14 +10,35 @@ header h1{
     justify-content: space-between;
     font-size: 30px;
     list-style: none;
-    background-color: saddlebrown;
+    background-color: steelblue;
     padding: 30px;
     margin: 0;
 
+}
 
+ul li{
+    padding: 10px;
+    background-color: purple;
 }
 
 a{
     text-decoration: none;
-    color: tomato;
+    color: deepskyblue;
+}
+
+
+.artigo{
+    border: 5px solid red;
+
+}
+
+img{
+    width: 300px;
+}
+
+
+}
+
+footer{
+    background-color: green;
 }
