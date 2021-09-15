@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header><h1>Cadastro de currículo</h1></header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <div class="line-content">
+                        <label for="name">Nome:</label>
+                        <input type="text" required id="name" max="40">
+                    </div>
+                    <div class="line-content">
+
+                        <label for="e-mail">E-mail:</label>
+                        <input type="text" required name="e-mail" max="50"
+                            id="e-mail">
+                    </div>
+                    <div class="line-content">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" required name="cpf" max="11"
+                            id="cpf">
+                    </div>
+                    <div class="line-content">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+                    <div class="line-content">
+                        <label for="estado">Estado:</label>
+                        <select name="estado" required id="estado">
+                        </select>
+                        <div class="line-content">
+                            <label for="tipo">Casa:
+                            <input type="radio" name="tipo" required id="casa">
+                        </label>
+                            <label for="tipo">Apartamento:
+                            <input type="radio" name="tipo" required id="apartamento">
+                        </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h2>Dados de seu último emprego</h2>
+                        <div class="line-content">
+                            <label for="resumo">Resumo do currículo:</label>
+                            <textarea name="resumo" maxlength="1000" id="resumo" required cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="line-content">
+                            <label for="cargo">Cargo:</label>
+                            <input type="text" name="cargo" max="40" id="cargo">
+                        </div>
+                        <div class="line-content">
+                            <label for="descricao">Descrição do cargo:</label>
+                            <input type="text" name="descricao" max="500" required id="descricao">
+                        </div>
+                        <div class="line-content">
+                            <label for="data">Data de início:</label>
+                            <input type="date" name="data" id="data">
+                        </div>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
